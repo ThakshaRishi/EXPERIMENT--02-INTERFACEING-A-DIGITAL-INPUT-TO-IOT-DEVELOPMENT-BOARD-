@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 21.02.2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: THAKSHA RISHI
+###  ROLL NO : 23013212
+###  DEPARTMENT: COMPUTER SCIENCE AND ENGINEERING (CYBER SECURITY)
 
 
 # EXPERIMENT--02-INTERFACING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-
@@ -77,11 +77,61 @@ The full form of an ARM is an advanced reduced instruction set computer (RISC) m
 
 
 ## STM 32 CUBE PROGRAM :
+```
+#include "main.h"
+#include "stdio.h"
+
+bool IRSENSOR;
+
+void irpair()
+
+while(1)
+{
+   irpair();
+}
+
+void irpair()
+
+{
+
+  IRSENSOR=HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_4);
+  
+  if(IRSENSOR==0)
+  
+  {
+      HAL_GPIO_Writepin(GPIOA, GPIO_PIN_0, RESET);
+      
+      HAL_Delay(1000);
+      
+      HAL_GPIO_Writepin(GPIOA, GPIO_PIN_0, SET);
+      
+              HAL_Delay(1000);
+              
+  }
+  
+  else
+  
+  {
+      HAL_GPIO_Writepin(GPIOA, GPIO_PIN_0, RESET);
+      
+              HAL_Delay(1000);
+              
+  }
+  
+ }
+```
 
 
 
 ## Output  :
+ LED OFF (WITHOUT OBSTACLE):
  
+ ![exp2 led off](https://github.com/ThakshaRishi/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/144870423/cc541f54-b9c1-48ee-b352-53ca2b448fb2)
+
+LED ON (WITH OBSTACLE):
+
+![exp2 led on](https://github.com/ThakshaRishi/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/144870423/43f1d404-8cff-4493-bfa2-fc35e605aba6)
+
  
  
  
