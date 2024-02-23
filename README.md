@@ -126,13 +126,13 @@ void irpair()
 ## Output  :
  LED OFF (WITHOUT OBSTACLE):
  
- ![exp2 led off](https://github.com/ThakshaRishi/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/144870423/cc541f54-b9c1-48ee-b352-53ca2b448fb2)
+![exp2 led off](https://github.com/ThakshaRishi/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/144870423/d24e3b95-8412-48b9-82b9-dfab9dc4fe28)
+
 
 LED ON (WITH OBSTACLE):
 
-![exp2 led on](https://github.com/ThakshaRishi/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/144870423/43f1d404-8cff-4493-bfa2-fc35e605aba6)
+![exp2 led on](https://github.com/ThakshaRishi/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/144870423/15a53343-affa-46ba-8b54-c903099d8b1f)
 
- 
  
  
 ## Result :
