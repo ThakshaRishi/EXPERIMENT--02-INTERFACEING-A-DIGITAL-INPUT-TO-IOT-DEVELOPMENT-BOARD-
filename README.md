@@ -134,6 +134,8 @@ LED ON (WITH OBSTACLE):
 ![exp2 led on](https://github.com/ThakshaRishi/EXPERIMENT--02-INTERFACEING-A-DIGITAL-INPUT-TO-IOT-DEVELOPMENT-BOARD-/assets/144870423/15a53343-affa-46ba-8b54-c903099d8b1f)
 
  
+
+
  
 ## Result :
 Interfacing a digital Input (ir pair) with ARM microcontroller based IOT development is executed and the results are verified.
